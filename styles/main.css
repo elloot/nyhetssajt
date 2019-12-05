@@ -24,16 +24,19 @@ body {
         margin-left: 12px;
     }*/
     .highlight__image {
-        width: 156px;
-        height: 125px;
+        width: 65%;
+        height: auto;
         display: inline-block;
         vertical-align: top;
         margin-left: 20px;
     }
+    .highlight__image:last-child {
+        margin-right: 20px;
+    }
     .highlight__scroll {
         overflow-x: scroll;
         overflow-y: hidden;
-        height: 125px;
+        height: auto;
         white-space: nowrap;
     }
     .highlight__title {
