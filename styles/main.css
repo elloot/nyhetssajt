@@ -45,6 +45,28 @@ body {
     height: auto;
 }
 
+footer {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+}
+
+.footer__page-title {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.footer__content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+}
+
+.footer__content {
+    font-size: 1.3em;
+}
+
 @media only screen and (max-width: 576px) {
     .highlight__image {
         max-width: 65%;
