@@ -8,7 +8,13 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
-.navbar__wrapper {
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
     border-bottom: solid black 1px;
 }
 
@@ -17,18 +23,11 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
-    /*.highlight__image-wrapper {
-        margin-left: 31.25px;
-    }*/
-    /*.highlight {
-        margin-left: 12px;
-    }*/
     .highlight__image {
         width: 65%;
         height: auto;
         display: inline-block;
         vertical-align: top;
-        margin-left: 20px;
     }
     .highlight__image:last-child {
         margin-right: 20px;
@@ -39,7 +38,12 @@ body {
         height: auto;
         white-space: nowrap;
     }
-    .highlight__title {
-        margin-left: 20px;
+    .article-frontpage__image {
+        width: 100%;
+        height: auto;
+    }
+    .bigtest {
+        display: flex;
+        flex-direction: column;
     }
 }
