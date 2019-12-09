@@ -49,6 +49,11 @@ body {
 .highlight__card-content {
     display: flex;
     flex-direction: column;
+    background-color: white;
+}
+
+.highlight__article-title {
+    padding: 12px 12px;
 }
 
 .frontpage__article-image {
@@ -62,7 +67,7 @@ body {
 }
 
 .frontpage__article-text {
-    padding: 12px 12px;
+    padding: 8px 12px 12px 12px;
 }
 
 footer {
