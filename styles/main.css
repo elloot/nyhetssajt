@@ -12,6 +12,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: #ebebeb;
 }
 
 .navbar {
@@ -45,6 +46,10 @@ body {
     height: auto;
 }
 
+.frontpage__article {
+    background-color: white;
+}
+
 footer {
     width: 100%;
     padding: 10px 20px;
@@ -75,7 +80,7 @@ footer {
         max-width: 65%;
     }
 
-    .article-frontpage__image {
+    .frontpage__article-image {
         max-width: 100%;
     }
 
