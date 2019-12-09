@@ -11,7 +11,7 @@ body {
 .frontpage {
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 12px;
     background-color: #ebebeb;
 }
 
@@ -84,11 +84,11 @@ footer {
         max-width: 100%;
     }
 
-    .bigtest {
+    .highlight__card {
         display: inline-block;
     }
 
-    .biggertest {
+    .highlight__card-content {
         display: flex;
         flex-direction: column;
     }
