@@ -6,6 +6,7 @@
 
 body {
     font-family: "Rubik", sans-serif;
+    background-color: #ebebeb;
 }
 
 .frontpage {
@@ -30,15 +31,24 @@ body {
     vertical-align: top;
 }
 
-.highlight__image:last-child {
-    margin-right: 20px;
-}
-
 .highlight__scroll {
     overflow-x: scroll;
     overflow-y: hidden;
     height: auto;
     white-space: nowrap;
+}
+
+.highlight__card {
+    display: inline-block;
+}
+
+.highlight__card:first-child {
+    margin-left: 0px;
+}
+
+.highlight__card-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .frontpage__article-image {
@@ -48,9 +58,15 @@ body {
 
 .frontpage__article {
     background-color: white;
+    margin-top: 12px;
+}
+
+.frontpage__article-text {
+    padding: 12px 12px;
 }
 
 footer {
+    margin-top: 12px;
     width: 100%;
     padding: 10px 20px;
     background-color: #333333;
@@ -81,16 +97,7 @@ footer {
     }
 
     .highlight__card {
-        display: inline-block;
         max-width: 65%;
-    }
-
-    .highlight__card-content {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .highlight__article-title {
-        max-width: 65%;
+        margin-left: 8px;
     }
 }
