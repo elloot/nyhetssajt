@@ -76,16 +76,13 @@ footer {
 }
 
 @media only screen and (max-width: 576px) {
-    .highlight__image {
-        max-width: 65%;
-    }
-
     .frontpage__article-image {
         max-width: 100%;
     }
 
     .highlight__card {
         display: inline-block;
+        max-width: 65%;
     }
 
     .highlight__card-content {
