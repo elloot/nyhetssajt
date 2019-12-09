@@ -76,6 +76,14 @@ body {
     padding: 12px 12px;
 }
 
+.frontpage__article-topic {
+    background-color: white;
+    padding: 12px;
+    border-top: solid #f73 2px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 .frontpage__article-image {
     width: 100%;
     height: auto;
