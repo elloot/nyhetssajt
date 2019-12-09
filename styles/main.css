@@ -36,6 +36,14 @@ body {
     margin: 12px 0 12px 0;
 }
 
+.highlight__title {
+    background-color: var(--nugget-color);
+    color: white;
+    margin-top: 12px;
+    padding: 12px;
+    font-size: 1.2rem;
+}
+
 .highlight__image {
     width: 100%;
     height: auto;
