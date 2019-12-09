@@ -18,10 +18,17 @@ body {
 
 .navbar {
     border-bottom: solid black 1px;
+    display: flex;
+    padding: 0 12px;
+    justify-content: space-between;
 }
 
 .navbar__title {
-    text-align: center;
+    margin: 8px 0 12px 0;
+}
+
+.navbar__hamburger {
+    margin: 12px 0 12px 0;
 }
 
 .highlight__image {
