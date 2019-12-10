@@ -42,7 +42,7 @@ body {
     color: white;
     margin-top: 12px;
     padding: 12px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .highlight__image {
@@ -77,6 +77,12 @@ body {
 
 .highlight__article-title {
     padding: 12px 12px;
+    font-size: 1.125rem;
+}
+
+.frontpage__article {
+    background-color: white;
+    margin-top: 12px;
 }
 
 .frontpage__article-topic {
@@ -92,13 +98,17 @@ body {
     height: auto;
 }
 
-.frontpage__article {
-    background-color: white;
-    margin-top: 12px;
-}
-
 .frontpage__article-text {
     padding: 8px 12px 12px 12px;
+}
+
+.frontpage__article-title {
+    font-size: 1.6875rem;
+    margin-bottom: 5px;
+}
+
+.frontpage__article-summary {
+    font-size: 1.0625rem;
 }
 
 footer {
