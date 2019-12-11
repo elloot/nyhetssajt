@@ -123,19 +123,23 @@ footer {
     color: white;
 }
 
+.footer__content-container {
+    background-color: #333333;
+}
+
 .footer__page-title {
     text-align: center;
     font-size: 1.8em;
 }
 
-.footer__content-container {
+.footer__content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 15px 0 15px;
 }
 
-.footer__content {
+.footer__link {
     font-size: 1.3em;
     text-decoration: none;
     color: white;
@@ -181,7 +185,8 @@ footer {
 
 @media only screen and (min-width: 768px) {
     .container {
-        /*width: 96%;*/
+        width: 96%;
+        max-width: 988px;
     }
 }
 
