@@ -30,15 +30,12 @@ body {
     display: flex;
     background-color: white;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar__title {
     margin: 8px 0 12px 0;
     font-size: 2rem;
-}
-
-.navbar__hamburger {
-    margin: 12px 0 12px 0;
 }
 
 .highlight__title {
