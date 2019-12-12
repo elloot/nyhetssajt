@@ -38,6 +38,11 @@ body {
     font-size: 2rem;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .highlight__title {
     background-color: var(--nugget-color);
     color: white;
@@ -128,6 +133,10 @@ footer {
 .footer__page-title {
     text-align: center;
     font-size: 1.8em;
+}
+
+.footer__title-link {
+    color: white;
 }
 
 .footer__content {
