@@ -41,7 +41,7 @@ body {
 .highlight__title {
     background-color: var(--nugget-color);
     color: white;
-    margin-top: 12px;
+    margin-top: 16px;
     padding: 12px;
     font-size: 1rem;
 }
@@ -83,7 +83,7 @@ body {
 
 .frontpage__article {
     background-color: white;
-    margin-top: 12px;
+    margin-top: 16px;
 }
 
 .frontpage__article-topic {
@@ -113,9 +113,9 @@ body {
 }
 
 footer {
-    margin-top: 12px;
+    margin-top: 16px;
     width: 100%;
-    padding: 10px 20px;
+    padding: 16px 20px;
     background-color: #333333;
     color: white;
 }
@@ -133,11 +133,11 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 15px 0 15px;
+    padding: 16px 0 0 0;
 }
 
 .footer__link {
-    font-size: 1.3em;
+    font-size: 1.125em;
     text-decoration: none;
     color: white;
 }
@@ -177,6 +177,14 @@ footer {
 
     .highlight__title {
         font-size: 1.0625rem;
+    }
+
+    .footer__page-title {
+        font-size: 2.2857rem;
+    }
+
+    .footer__link {
+        font-size: 1.25rem;
     }
 
     /*Increase font-sizes for footer*/
