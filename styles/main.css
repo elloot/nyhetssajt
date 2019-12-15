@@ -230,6 +230,9 @@ footer {
 }
 
 @media only screen and (min-width: 1200px) {
+    .about-us__image-wrapper {
+        height: 400px;
+    }
 }
 
 .about-us__image {
@@ -239,6 +242,20 @@ footer {
 }
 
 .about-us__image-wrapper {
+    margin-top: 16px;
     width: 100%;
-    height: 200px;
+    height: 300px;
+}
+
+.about-us__text-container {
+    background-color: white;
+    padding: 8px 12px;
+}
+
+.about-us__text:not(:first-of-type) {
+    padding-top: 16px;
+}
+
+.bold {
+    font-weight: 800;
 }
