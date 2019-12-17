@@ -154,10 +154,15 @@ footer {
 
 .article__preamble {
     font-size: 1.0625rem;
+    margin-bottom: 5px;
 }
 
 .article__title {
     hyphens: auto;
+}
+
+.italic {
+    font-style: italic;
 }
 
 @media only screen and (min-width: 576px) {
@@ -274,4 +279,12 @@ footer {
 
 .article__text:not(:first-of-type) {
     padding-top: 16px;
+}
+
+.article__text:last-of-type {
+    padding-top: 32px;
+}
+
+.article__quote {
+    padding-left: 12px;
 }
