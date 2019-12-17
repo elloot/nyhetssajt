@@ -152,6 +152,14 @@ footer {
     color: white;
 }
 
+.article__preamble {
+    font-size: 1.0625rem;
+}
+
+.article__title {
+    hyphens: auto;
+}
+
 @media only screen and (min-width: 576px) {
     /*.navbar {
         padding: 0;
@@ -194,6 +202,10 @@ footer {
     }
 
     .footer__link {
+        font-size: 1.25rem;
+    }
+
+    .article__preamble {
         font-size: 1.25rem;
     }
 
@@ -258,4 +270,8 @@ footer {
 
 .bold {
     font-weight: 800;
+}
+
+.article__text:not(:first-of-type) {
+    padding-top: 16px;
 }
