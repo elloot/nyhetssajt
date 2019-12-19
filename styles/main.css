@@ -125,6 +125,7 @@ a {
 .frontpage__article-title {
     font-size: 1.6875rem;
     margin-bottom: 5px;
+    hyphens: auto;
 }
 
 .frontpage__article-summary {
