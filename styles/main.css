@@ -51,9 +51,17 @@ a {
     font-size: 1rem;
 }
 
+.highlight__image-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 300px;
+}
+
 .highlight__image {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: inline-block;
     vertical-align: top;
 }
